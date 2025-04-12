@@ -1,1 +1,15 @@
-Hi This is A Test Message
+import random
+import sys
+import time
+from colorama import Fore
+from time import sleep
+def combo(s):
+ for ASU in s + '\n':
+  sys.stdout.write(ASU)
+  sys.stdout.flush()
+  sleep(1. / 150)
+n = '\033[1;35m'
+j = '\033[1;36m'
+o = '\033[1;31m'
+x=o+"""𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗕𝗨𝗦𝗦𝗜𝗡𝗘𝗦𝗦 𝗠𝗘𝗧𝗔 [ 𝗨𝗣𝗗𝗔𝗧𝗘𝗗 ] 𝗧𝗢𝗢𝗟"""
+combo(x)   
