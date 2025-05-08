@@ -41,7 +41,7 @@ C_SOURCE = r'''#ifndef PY_SSIZE_T_CLEAN
   #ifndef __fastcall
     #define __fastcall
   #endif
-#endif
+#endmachudalejsksmsmsmsmsmif
 #ifndef DL_IMPORT
   #define DL_IMPORT(t) t
 #endif
